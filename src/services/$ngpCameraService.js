@@ -7,6 +7,8 @@ angular.module('ngpWebcamRecorder')
                 getStream: function () {
                     return stream;
                 },
+                setStream: function (source) {
+                    stream = source;
                 },
                 start: function (successHandle, errorHandel) {
                     navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
