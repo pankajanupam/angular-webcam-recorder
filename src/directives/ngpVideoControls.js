@@ -1,5 +1,5 @@
 angular.module('ngpWebcamRecorder')
-    .directive('videoControls', [
+    .directive('ngpVideoControls', [
         function () {
             return {
                 restrict: 'A',
