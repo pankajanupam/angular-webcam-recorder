@@ -1,0 +1,34 @@
+{
+  "name": "angular-webcam-recorder",
+  "homepage": "https://pankajanupam.github.io/angular-webcam-recorder/",
+  "authors": [
+    "Pankaj Anupam <info@pankajanupam.in>"
+  ],
+  "description": "Angular directive to capture video, gif & picture form webcam.",
+  "main": "",
+  "keywords": [
+    "ng-webcam-upload",
+    "webcam-upload",
+    "angular webcam upload"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
