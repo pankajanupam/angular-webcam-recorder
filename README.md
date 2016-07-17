@@ -1,6 +1,35 @@
 # angular-webcam-recorder
 Angular directive to capture video, gif &amp; picture form webcam.
 
+## Installation
+
+You can install this package with `bower`.
+
+### bower
+
+```shell
+bower install angular-webcam-recorder
+```
+
+Add a `<script>` to your `index.html`:
+
+```html
+<script src="/bower_components/angular-webcam-recorder/angular-webcam-recorder.js"></script>
+```
+
+Then add `ngpYoutubeUpload` as a dependency for your app:
+
+```javascript
+angular.module('myApp', ['ngpWebcamRecorder']);
+```
+
+##Uses
+
+Simply use the directive in a template. 
+```html
+<div angular-webcam-recorder ></div>
+```
+
 ## Contribute
 
 Help by just creating issues and requesting new feature. I will update fast.
